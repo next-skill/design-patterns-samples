@@ -1,6 +1,6 @@
 import { Task, TaskGateway, TaskService } from './service'
 
-class InMemoryTaskGateway implements TaskGateway {
+class TaskInMemoryGateway implements TaskGateway {
   constructor(private tasks: Task[] = []) {}
 
   find(_id: number): Task | undefined {
@@ -23,7 +23,7 @@ class InMemoryTaskGateway implements TaskGateway {
 describe('TaskService', () => {
   test('success to register 3rd task', () => {
     // 準備
-    const taskGateway = new InMemoryTaskGateway([
+    const taskGateway = new TaskInMemoryGateway([
       { id: 1, title: 'task1' },
       { id: 2, title: 'task2' }
     ])
@@ -38,7 +38,7 @@ describe('TaskService', () => {
 
   test('fail to register 4th task', () => {
     // 準備
-    const taskGateway = new InMemoryTaskGateway([
+    const taskGateway = new TaskInMemoryGateway([
       { id: 1, title: 'task1' },
       { id: 2, title: 'task2' },
       { id: 3, title: 'task3' }
