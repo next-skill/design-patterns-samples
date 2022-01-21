@@ -4,6 +4,8 @@
 
 ## template-method
 
+![](./template-method/class-diagram.svg)
+
 起動
 
 ```console
