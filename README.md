@@ -37,3 +37,9 @@ curl localhost:3000
 curl localhost:3000/tasks
 curl localhost:3000/users
 ```
+
+## DB アクセスをインメモリ化したテスト
+
+```console
+yarn test
+```
