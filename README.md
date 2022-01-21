@@ -7,7 +7,7 @@
 起動
 
 ```console
-yarn ts-node template-method/application.ts
+yarn ts-node-dev --respawn template-method/application.ts
 ```
 
 リクエスト
