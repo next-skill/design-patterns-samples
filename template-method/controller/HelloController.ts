@@ -1,4 +1,4 @@
-import { AbstractController } from './abstractController'
+import { AbstractController } from '../abstractController'
 
 export class HelloController extends AbstractController {
   beforeHandle(): void {

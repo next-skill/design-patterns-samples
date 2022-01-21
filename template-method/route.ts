@@ -1,7 +1,7 @@
 import { AbstractController } from './abstractController'
-import { HelloController } from './HelloController'
-import { TaskController } from './TaskController'
-import { UserController } from './UserController'
+import { HelloController } from './controller/HelloController'
+import { TaskController } from './controller/TaskController'
+import { UserController } from './controller/UserController'
 
 type Route = {
   [path: string]: AbstractController

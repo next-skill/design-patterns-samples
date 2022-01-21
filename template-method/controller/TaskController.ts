@@ -1,4 +1,4 @@
-import { AbstractController } from './abstractController'
+import { AbstractController } from '../abstractController'
 
 export class TaskController extends AbstractController {
   handleGet() {
