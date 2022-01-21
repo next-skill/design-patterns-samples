@@ -10,7 +10,7 @@
                 <mxCell id="3" value="route" style="html=1;" parent="1" vertex="1">
                     <mxGeometry x="80" y="200" width="110" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="AbstractController" style="html=1;" parent="1" vertex="1">
+                <mxCell id="4" value="&amp;lt;&amp;lt; interface &amp;gt;&amp;gt;&lt;br&gt;AbstractController" style="html=1;" parent="1" vertex="1">
                     <mxGeometry x="280" y="80" width="110" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="5" value="HelloController" style="html=1;" parent="1" vertex="1">
@@ -40,7 +40,7 @@
                         <mxPoint x="303.33333333333326" y="140" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="13" value="Implements" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="5" target="4">
+                <mxCell id="13" value="Implements" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="5" target="4" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
                         <mxPoint x="360" y="230" as="sourcePoint"/>
                         <mxPoint x="520" y="230" as="targetPoint"/>

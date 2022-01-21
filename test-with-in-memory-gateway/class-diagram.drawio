@@ -1,0 +1,40 @@
+<mxfile host="65bd71144e">
+    <diagram id="mV_eAABYKltjs_lONSdR" name="ページ1">
+        <mxGraphModel dx="866" dy="440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="TaskService" style="html=1;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="80" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="TaskMySQLGateway" style="html=1;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="200" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&amp;lt;&amp;lt; interface &amp;gt;&amp;gt;&lt;br&gt;TaskGateway" style="html=1;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="80" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="TaskInMemoryGateway" style="html=1;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="200" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="endArrow=open;endFill=1;endSize=12;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="2" target="4" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="260" y="100" as="sourcePoint"/>
+                        <mxPoint x="310" y="110" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="Implements" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;" edge="1" parent="1" source="3" target="4">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="490" y="120" as="sourcePoint"/>
+                        <mxPoint x="520" y="110" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="Implements" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;" edge="1" parent="1" source="5" target="4">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="145" y="210" as="sourcePoint"/>
+                        <mxPoint x="292.36842105263145" y="140" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -40,6 +40,8 @@ curl localhost:3000/users
 
 ## DB アクセスをインメモリ化したテスト
 
+![](./test-with-in-memory-gateway/class-diagram.svg)
+
 ```console
 yarn test
 ```
