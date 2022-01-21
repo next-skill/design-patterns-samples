@@ -2,14 +2,32 @@
 
 各種デザインパターンを活用したサンプルコード
 
-## template-method
+## 継承
 
-![](./template-method/class-diagram.svg)
+![](./inheritance/class-diagram.svg)
 
 起動
 
 ```console
-yarn ts-node-dev --respawn template-method/application.ts
+yarn ts-node-dev --respawn inheritance/application.ts
+```
+
+リクエスト
+
+```console
+curl localhost:3000
+curl localhost:3000/tasks
+curl localhost:3000/users
+```
+
+## 移譲
+
+![](./delegation/class-diagram.svg)
+
+起動
+
+```console
+yarn ts-node-dev --respawn delegation/application.ts
 ```
 
 リクエスト
