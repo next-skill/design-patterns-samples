@@ -21,7 +21,7 @@ class TaskInMemoryGateway implements TaskGateway {
 }
 
 describe('TaskService', () => {
-  test('success to register 3rd task', () => {
+  test('should register 3rd task', () => {
     // 準備
     const taskGateway = new TaskInMemoryGateway([
       { id: 1, title: 'task1' },
@@ -36,7 +36,7 @@ describe('TaskService', () => {
     expect(taskGateway.count()).toBe(3)
   })
 
-  test('fail to register 4th task', () => {
+  test('should not register 4th task', () => {
     // 準備
     const taskGateway = new TaskInMemoryGateway([
       { id: 1, title: 'task1' },
